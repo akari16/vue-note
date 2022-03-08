@@ -17,6 +17,14 @@
 				<p>作用域插槽</p>
 				<Scope :scopeData="scopeData"></Scope>
 			</li>
+			<li>
+				<p>解构插槽</p>
+				<Deconstru>
+					<template v-slot="{ user: person }">
+						父组件模板：{{ person.name }},{{ person.age }}
+					</template>
+				</Deconstru>
+			</li>
 		</ul>
 	</div>
 </template>
@@ -26,8 +34,9 @@ import { Component, Vue } from "vue-property-decorator";
 import Base from "./Base.vue";
 import Specific from "./Specific.vue";
 import Scope from "./Scope.vue";
+import Deconstru from "./Deconstru.vue";
 
-@Component({ components: { Base, Specific, Scope } })
+@Component({ components: { Base, Specific, Scope, Deconstru } })
 export default class SlotDemo extends Vue {
 	private scopeData: Number = 23;
 }
