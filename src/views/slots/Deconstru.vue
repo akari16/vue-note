@@ -10,7 +10,7 @@
 import { Component, Vue, Prop } from "vue-property-decorator";
 
 @Component
-export default class Scope extends Vue {
+export default class Deconstru extends Vue {
 	private user: Object = {
 		name: "zhangsan",
 		age: 23,
