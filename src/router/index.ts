@@ -16,6 +16,11 @@ const routes: Array<RouteConfig> = [
     name: 'slots',
     component: () => import(/* webpackChunkName: "slots" */ '../views/slots/Index.vue')
   },
+  {
+    path: '/computedWatch',
+    name: 'computedWatch',
+    component: () => import(/* webpackChunkName: "slots" */ '../views/computedWatch/Index.vue')
+  },
 ]
 
 const router = new VueRouter({

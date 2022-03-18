@@ -2,7 +2,8 @@
 	<div id="app">
 		<nav>
 			<router-link to="/">Home</router-link> |
-			<router-link to="/slots">Slots</router-link>
+			<router-link to="/slots">Slots</router-link> |
+			<router-link to="/computedWatch">computedWatch</router-link>
 		</nav>
 		<router-view />
 	</div>
@@ -29,5 +30,8 @@ nav {
 			color: #42b983;
 		}
 	}
+}
+* {
+	text-align: left;
 }
 </style>
