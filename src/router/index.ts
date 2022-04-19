@@ -21,6 +21,16 @@ const routes: Array<RouteConfig> = [
     name: 'computedWatch',
     component: () => import(/* webpackChunkName: "slots" */ '../views/computedWatch/Index.vue')
   },
+  {
+    path: '/deepClone',
+    name: 'deepClone',
+    component: () => import(/* webpackChunkName: "deepClone" */ '../views/deepClone/Index.vue')
+  },
+  {
+    path: '/defineProperty',
+    name: 'defineProperty',
+    component: () => import(/* webpackChunkName: "defineProperty" */ '../views/defineProperty/Index.vue')
+  },
 ]
 
 const router = new VueRouter({

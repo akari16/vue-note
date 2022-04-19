@@ -1,0 +1,625 @@
+{
+  "status": 200000,
+  "msg": "ok",
+  "data": [
+    {
+      "id": 82,
+      "mech_id": 1,
+      "title": "",
+      "detail": "",
+      "operator": 1,
+      "money": "5000.00",
+      "money_end": "0.00",
+      "apply_purchase_type": [
+        "1",
+        "3",
+        "2"
+      ],
+      "apply_type": [
+        "31",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36"
+      ],
+      "type": 2,
+      "config": {
+        "set": 1,
+        "value": "10"
+      },
+      "link_id": 0,
+      "sort": 3,
+      "status": 1,
+      "create_time": "2022-04-16 11:55:39",
+      "update_time": "2022-04-18 16:12:58",
+      "delete_time": 0
+    },
+    {
+      "id": 72,
+      "mech_id": 1,
+      "title": "",
+      "detail": "",
+      "operator": 2,
+      "money": "5000.00",
+      "money_end": "0.00",
+      "apply_purchase_type": [
+        "1",
+        "3"
+      ],
+      "apply_type": [
+        "41",
+        "42"
+      ],
+      "type": 2,
+      "config": {
+        "set": 1,
+        "value": "10"
+      },
+      "link_id": 0,
+      "sort": 2,
+      "status": 1,
+      "create_time": "2022-04-15 11:13:05",
+      "update_time": "2022-04-16 12:05:01",
+      "delete_time": 0
+    },
+    {
+      "id": 75,
+      "mech_id": 1,
+      "title": "",
+      "detail": "",
+      "operator": 2,
+      "money": "30000.00",
+      "money_end": "0.00",
+      "apply_purchase_type": [
+        "1",
+        "2",
+        "3"
+      ],
+      "apply_type": [
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "2",
+        "31",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36",
+        "41",
+        "42"
+      ],
+      "type": 11,
+      "config": {
+        "first_trial": 47
+      },
+      "link_id": 0,
+      "sort": 2,
+      "status": 1,
+      "create_time": "2022-04-15 11:18:26",
+      "update_time": "2022-04-15 11:18:26",
+      "delete_time": 0
+    },
+    {
+      "id": 81,
+      "mech_id": 1,
+      "title": "",
+      "detail": "",
+      "operator": 1,
+      "money": "2000000.00",
+      "money_end": "0.00",
+      "apply_purchase_type": [
+        "1",
+        "3"
+      ],
+      "apply_type": [],
+      "type": 6,
+      "config": {
+        "set": 1,
+        "organize_form_type_1": 3,
+        "organize_form_type_2": 31
+      },
+      "link_id": 0,
+      "sort": 2,
+      "status": 1,
+      "create_time": "2022-04-15 14:43:52",
+      "update_time": "2022-04-15 14:43:52",
+      "delete_time": 0
+    },
+    {
+      "id": 44,
+      "mech_id": 1,
+      "title": "",
+      "detail": "",
+      "operator": 1,
+      "money": "1.00",
+      "money_end": "0.00",
+      "apply_purchase_type": [
+        "1",
+        "2",
+        "3"
+      ],
+      "apply_type": [
+        "11",
+        "12",
+        "2",
+        "31",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36",
+        "41",
+        "42"
+      ],
+      "type": 8,
+      "config": [],
+      "link_id": 1,
+      "sort": 1,
+      "status": 1,
+      "create_time": "2022-02-21 16:52:28",
+      "update_time": "2022-02-21 16:52:28",
+      "delete_time": 0
+    },
+    {
+      "id": 45,
+      "mech_id": 1,
+      "title": "",
+      "detail": "",
+      "operator": 1,
+      "money": "10000.00",
+      "money_end": "0.00",
+      "apply_purchase_type": [
+        "1",
+        "2",
+        "3"
+      ],
+      "apply_type": [
+        "11",
+        "12",
+        "2",
+        "31",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36",
+        "41",
+        "42"
+      ],
+      "type": 8,
+      "config": [],
+      "link_id": 2,
+      "sort": 1,
+      "status": 1,
+      "create_time": "2022-02-21 17:22:10",
+      "update_time": "2022-02-21 17:22:10",
+      "delete_time": 0
+    },
+    {
+      "id": 47,
+      "mech_id": 1,
+      "title": "",
+      "detail": "",
+      "operator": 1,
+      "money": "1.00",
+      "money_end": "6000.00",
+      "apply_purchase_type": [
+        "1",
+        "2",
+        "3"
+      ],
+      "apply_type": [
+        "11",
+        "12",
+        "2",
+        "31",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36",
+        "41",
+        "42"
+      ],
+      "type": 9,
+      "config": [],
+      "link_id": 4,
+      "sort": 1,
+      "status": 1,
+      "create_time": "2022-02-21 18:42:50",
+      "update_time": "2022-04-16 15:10:05",
+      "delete_time": 0
+    },
+    {
+      "id": 48,
+      "mech_id": 1,
+      "title": "",
+      "detail": "",
+      "operator": 1,
+      "money": "0.00",
+      "money_end": "0.00",
+      "apply_purchase_type": [
+        "1",
+        "2",
+        "3"
+      ],
+      "apply_type": [
+        "11",
+        "12",
+        "2",
+        "31",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36",
+        "41",
+        "42"
+      ],
+      "type": 9,
+      "config": [],
+      "link_id": 7,
+      "sort": 1,
+      "status": 1,
+      "create_time": "2022-02-21 18:43:38",
+      "update_time": "2022-02-21 18:43:38",
+      "delete_time": 0
+    },
+    {
+      "id": 57,
+      "mech_id": 1,
+      "title": "",
+      "detail": "",
+      "operator": 1,
+      "money": "0.00",
+      "money_end": "0.00",
+      "apply_purchase_type": [
+        "1",
+        "2",
+        "3"
+      ],
+      "apply_type": [
+        "11",
+        "12",
+        "2",
+        "31",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36",
+        "41",
+        "42"
+      ],
+      "type": 8,
+      "config": [],
+      "link_id": 3,
+      "sort": 1,
+      "status": 1,
+      "create_time": "2022-03-02 17:37:26",
+      "update_time": "2022-03-02 17:37:26",
+      "delete_time": 0
+    },
+    {
+      "id": 59,
+      "mech_id": 1,
+      "title": "",
+      "detail": "",
+      "operator": 1,
+      "money": "0.00",
+      "money_end": "0.00",
+      "apply_purchase_type": [
+        "1"
+      ],
+      "apply_type": [
+        "11",
+        "12"
+      ],
+      "type": 12,
+      "config": {
+        "early_warning_prescription": "30",
+        "violation_aging": "60"
+      },
+      "link_id": 0,
+      "sort": 1,
+      "status": 1,
+      "create_time": "2022-03-04 16:37:08",
+      "update_time": "2022-03-04 16:37:56",
+      "delete_time": 0
+    },
+    {
+      "id": 60,
+      "mech_id": 1,
+      "title": "",
+      "detail": "",
+      "operator": 1,
+      "money": "0.00",
+      "money_end": "0.00",
+      "apply_purchase_type": [
+        "2"
+      ],
+      "apply_type": [
+        "2"
+      ],
+      "type": 13,
+      "config": {
+        "early_warning_prescription": "20",
+        "violation_aging": "30"
+      },
+      "link_id": 0,
+      "sort": 1,
+      "status": 1,
+      "create_time": "2022-03-04 16:42:21",
+      "update_time": "2022-03-04 16:42:21",
+      "delete_time": 0
+    },
+    {
+      "id": 62,
+      "mech_id": 1,
+      "title": "",
+      "detail": "测试",
+      "operator": 1,
+      "money": "0.00",
+      "money_end": "0.00",
+      "apply_purchase_type": [
+        "3"
+      ],
+      "apply_type": [
+        "31",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36"
+      ],
+      "type": 14,
+      "config": {
+        "early_warning_prescription": "30",
+        "violation_aging": "45"
+      },
+      "link_id": 0,
+      "sort": 1,
+      "status": 1,
+      "create_time": "2022-03-04 17:09:17",
+      "update_time": "2022-03-04 17:09:17",
+      "delete_time": 0
+    },
+    {
+      "id": 65,
+      "mech_id": 1,
+      "title": "",
+      "detail": "",
+      "operator": 1,
+      "money": "1.00",
+      "money_end": "0.00",
+      "apply_purchase_type": [
+        "1",
+        "2",
+        "3"
+      ],
+      "apply_type": [
+        "31",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36"
+      ],
+      "type": 1,
+      "config": [],
+      "link_id": 0,
+      "sort": 1,
+      "status": 1,
+      "create_time": "2022-03-24 15:38:19",
+      "update_time": "2022-04-03 15:08:07",
+      "delete_time": 0
+    },
+    {
+      "id": 71,
+      "mech_id": 1,
+      "title": "",
+      "detail": "",
+      "operator": 2,
+      "money": "5000.00",
+      "money_end": "0.00",
+      "apply_purchase_type": [
+        "1",
+        "3"
+      ],
+      "apply_type": [
+        "11",
+        "12",
+        "13",
+        "14",
+        "2",
+        "31",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36"
+      ],
+      "type": 2,
+      "config": {
+        "set": 1,
+        "value": "5"
+      },
+      "link_id": 0,
+      "sort": 1,
+      "status": 1,
+      "create_time": "2022-04-15 11:12:42",
+      "update_time": "2022-04-18 17:02:19",
+      "delete_time": 0
+    },
+    {
+      "id": 73,
+      "mech_id": 1,
+      "title": "",
+      "detail": "",
+      "operator": 1,
+      "money": "5000.00",
+      "money_end": "0.00",
+      "apply_purchase_type": [
+        "1",
+        "3"
+      ],
+      "apply_type": [
+        "31",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36"
+      ],
+      "type": 10,
+      "config": [],
+      "link_id": 0,
+      "sort": 1,
+      "status": 1,
+      "create_time": "2022-04-15 11:14:33",
+      "update_time": "2022-04-16 12:04:36",
+      "delete_time": 0
+    },
+    {
+      "id": 74,
+      "mech_id": 1,
+      "title": "",
+      "detail": "",
+      "operator": 1,
+      "money": "30000.00",
+      "money_end": "0.00",
+      "apply_purchase_type": [
+        "1",
+        "3",
+        "2"
+      ],
+      "apply_type": [
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "2",
+        "31",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36",
+        "41",
+        "42"
+      ],
+      "type": 11,
+      "config": {
+        "first_trial": 47,
+        "second_trial": 27
+      },
+      "link_id": 0,
+      "sort": 1,
+      "status": 1,
+      "create_time": "2022-04-15 11:16:04",
+      "update_time": "2022-04-15 11:16:04",
+      "delete_time": 0
+    },
+    {
+      "id": 76,
+      "mech_id": 1,
+      "title": "",
+      "detail": "",
+      "operator": 2,
+      "money": "2000.00",
+      "money_end": "0.00",
+      "apply_purchase_type": [
+        "1",
+        "3"
+      ],
+      "apply_type": [
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "2",
+        "31",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36",
+        "41",
+        "42"
+      ],
+      "type": 3,
+      "config": {
+        "set": 1
+      },
+      "link_id": 0,
+      "sort": 1,
+      "status": 1,
+      "create_time": "2022-04-15 11:22:12",
+      "update_time": "2022-04-16 16:24:39",
+      "delete_time": 0
+    },
+    {
+      "id": 79,
+      "mech_id": 1,
+      "title": "",
+      "detail": "例如货物类的所有品目，在第三极以内，年度预算达到2百万以上，组织形式强制为公开招标",
+      "operator": 1,
+      "money": "2000000.00",
+      "money_end": "0.00",
+      "apply_purchase_type": [
+        "1"
+      ],
+      "apply_type": [],
+      "type": 6,
+      "config": {
+        "set": 1,
+        "organize_form_type_1": 2,
+        "organize_form_type_2": 0
+      },
+      "link_id": 0,
+      "sort": 1,
+      "status": 1,
+      "create_time": "2022-04-15 11:29:17",
+      "update_time": "2022-04-16 15:37:57",
+      "delete_time": 0
+    },
+    {
+      "id": 80,
+      "mech_id": 1,
+      "title": "",
+      "detail": "",
+      "operator": 1,
+      "money": "2000000.00",
+      "money_end": "0.00",
+      "apply_purchase_type": [
+        "1",
+        "3"
+      ],
+      "apply_type": [],
+      "type": 5,
+      "config": {
+        "set": 1,
+        "organize_form_type_1": 3,
+        "organize_form_type_2": 31
+      },
+      "link_id": 0,
+      "sort": 1,
+      "status": 1,
+      "create_time": "2022-04-15 14:43:33",
+      "update_time": "2022-04-15 14:43:33",
+      "delete_time": 0
+    }
+  ]
+}
