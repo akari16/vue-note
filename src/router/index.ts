@@ -31,6 +31,21 @@ const routes: Array<RouteConfig> = [
     name: 'defineProperty',
     component: () => import(/* webpackChunkName: "defineProperty" */ '../views/defineProperty/Index.vue')
   },
+  {
+    path: '/defineProperty',
+    name: 'defineProperty',
+    component: () => import(/* webpackChunkName: "defineProperty" */ '../views/defineProperty/Index.vue')
+  },
+  {
+    path: '/numbers',
+    name: 'numbers',
+    component: () => import(/* webpackChunkName: "numbers" */ '../views/jsBase/Numbers.vue')
+  },
+  {
+    path: '/mathFun',
+    name: 'mathFun',
+    component: () => import(/* webpackChunkName: "mathFun" */ '../views/jsBase/MathFun.vue')
+  },
 ]
 
 const router = new VueRouter({
