@@ -46,6 +46,16 @@ const routes: Array<RouteConfig> = [
     name: 'mathFun',
     component: () => import(/* webpackChunkName: "mathFun" */ '../views/jsBase/MathFun.vue')
   },
+  {
+    path: '/dateFun',
+    name: 'dateFun',
+    component: () => import(/* webpackChunkName: "mathFun" */ '../views/jsBase/DateFun.vue')
+  },
+  {
+    path: '/typeCheck',
+    name: 'typeCheck',
+    component: () => import(/* webpackChunkName: "typeCheck" */ '../views/typeCheck/Index.vue')
+  },
 ]
 
 const router = new VueRouter({

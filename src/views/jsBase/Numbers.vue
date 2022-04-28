@@ -27,35 +27,36 @@ export default {
      *
      *
      * Number原生属性
+     *
      * Number.EPSILON 两个可表示(representable)数之间的最小间隔。
-     * 
+     *
      * Number.MAX_SAFE_INTEGER JavaScript 中最大的安全整数 (2^53 - 1)。
-     * 
+     *
      * Number.MAX_VALUE 能表示的最大正数。最小的负数是 -MAX_VALUE。
-     * 
+     *
      * Number.MIN_SAFE_INTEGER JavaScript 中最小的安全整数 (-(2^53 - 1)).
-     * 
+     *
      * Number.MIN_VALUE 能表示的最小正数即最接近 0 的正数 (实际上不会变成 0)。最大的负数是 -MIN_VALUE。
-     * 
+     *
      * Number.NaN 特殊的“非数字”值。
-     * 
+     *
      * Number.NEGATIVE_INFINITY 特殊的负无穷大值，在溢出时返回该值。
-     * 
+     *
      * Number.POSITIVE_INFINITY 特殊的正无穷大值，在溢出时返回该值。
-     * 
-     * 
+     *
+     *
      *
      *
      * */
     // var value1 = new Number("123");
     // this.value1 = value1;
-    // console.log(`value1 === 123 is ${value1 === 123}`);
+    // console.log(`value1 === 123 is ${value1 === 123}`); // value1 === 123 is false
     // var value2 = Number("123");
     // this.value2 = value2;
-    // console.log(`value2 === 123 is ${value2 === 123}`);
+    // console.log(`value2 === 123 is ${value2 === 123}`); // value2 === 123 is true
     // 判断Number类型
-    // console.log(value1 instanceof Number);
-    // console.log(value2 instanceof Number);
+    // console.log(value1 instanceof Number);  // true
+    // console.log(value2 instanceof Number);  // false
     // Number 方法
     /**
      *
@@ -166,6 +167,14 @@ export default {
     // // 1500
     // console.log(checkInt("321", 2));
     // // 0
+
+    /**
+     *
+     * Number.prototype.toFixed() 把数字转换为字符串，返回小数点后有指定位数的数字。
+     *
+     * */
+    // var numObj = 5.123456;
+    // var n = numObj.toFixed(2); // 5.12
     /**
      *
      * Number.prototype.toPrecision() 方法以指定的精度返回该数值对象的字符串表示。
@@ -182,8 +191,8 @@ export default {
      * 使用 Number 转换 Date 对象
      *
      */
-    // var d = new Date("December 17, 1995 03:24:00");
-    // console.log(Number(d));
+    var d = new Date("December 17, 1995 03:24:00");
+    console.log(Number(d));
   },
 };
 </script>
